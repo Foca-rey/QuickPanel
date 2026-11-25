@@ -1,5 +1,46 @@
 # QuickPanel
 
+QuickPanel is a modern, customizable floating desktop panel for Windows, inspired by the visual style of Windows 11.
+
+> **Status:** The project is currently in preparation. The features described below are project goals and should not be considered implemented until functional code exists for them.
+
+## Planned Features
+
+- Digital clock and calendar.
+- Real system information: CPU, RAM, and storage usage.
+- Quick notes saved locally.
+- Shortcuts to programs.
+- Light and dark themes.
+- A floating, always-on-top window that can be moved around the desktop.
+
+## Planned Technologies
+
+- Electron
+- React, JSX, and CSS
+- Target compatibility: Windows 10 and Windows 11
+
+The application is designed to operate locally, without external services. Its Electron integration should keep Node.js disabled in the renderer process and use a minimal, validated API through `preload`/IPC.
+
+## Setup and Running
+
+The project structure and development/build commands will be defined alongside the implementation. Once `package.json` is added, use its scripts to install dependencies, start the application, and generate the Windows installer. No executable or compiled installer is included yet.
+
+## Privacy
+
+The goal is to store notes and preferences on the user's computer and obtain PC metrics directly from the local system. No external services or simulated performance data should be added.
+
+## Credits and License
+
+QuickPanel is distributed under the **QuickPanel Attribution License 1.0**, included in [`LICENSE`](LICENSE). If you copy, modify, or redistribute the project or substantial portions of it, you must give credit to **Foca-rey** and include a visible link to [https://github.com/Foca-rey](https://github.com/Foca-rey), while also retaining the license notice. See `LICENSE` for the complete terms.
+
+## Contributions
+
+Contributions are welcome. Before opening a proposal, verify that your changes preserve Windows compatibility and comply with the project's privacy and Electron security requirements.
+
+---
+
+# QuickPanel
+
 QuickPanel es una aplicación de escritorio para Windows pensada como un panel flotante, moderno y personalizable, inspirado en la estética de Windows 11.
 
 > **Estado:** proyecto en preparación. Las funciones descritas abajo son el objetivo del proyecto y no deben considerarse implementadas hasta que exista código funcional para ellas.
