@@ -1,0 +1,48 @@
+# Dependencies
+/node_modules/
+
+# Build and packaged artifacts
+/dist/
+/out/
+/build/
+/release/
+*.exe
+*.msi
+*.appx
+*.zip
+
+# Electron / tooling caches
+/.electron/
+/.electron-cache/
+/.vite/
+/.webpack/
+/.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment files and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test and coverage output
+/coverage/
